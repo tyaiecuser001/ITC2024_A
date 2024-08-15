@@ -1,0 +1,54 @@
+module UART_Client(
+			input iCLK,RST_n,
+			input select,
+			input [3:0] SW,
+			input rx,
+			output tx,
+			output Client_txd
+			);
+			
+wire cnt_Second_en,receiver_OK;
+
+wire [7:0] rxd;	
+wire RECEIVE_END;
+
+wire [3:0] LED_select;
+			
+assign Client_txd = rx;	
+					
+uart_tx uart_tx_u1(
+					.iCLK(iCLK),
+					.RST_n(RST_n),
+					.select(select),
+					.LED_select(LED_select),
+					.receiver_OK(receiver_OK),
+					.tx(tx),
+					.cnt_Second_en(cnt_Second_en)
+					);
+					
+uart_rx uart_rx_u2(
+					.iCLK(iCLK),
+					.RST_n(RST_n),
+					.rx(rx),
+					.rxd(rxd),
+					.RECEIVE_END(RECEIVE_END)
+					);
+					
+receiver_OK receiver_OK_u1(
+								.iCLK(iCLK),
+								.RST_n(RST_n),
+								.RECEIVE_END(RECEIVE_END),
+								.cnt_Second_en(cnt_Second_en),
+								.rxd(rxd),
+								.receiver_OK(receiver_OK)
+								);
+								
+Select_mode Select_mode_u1(
+								.iCLK(iCLK),
+								.RST_n(RST_n),
+								.select(select),
+								.SW(SW),
+								.LED_select(LED_select)
+								);
+
+endmodule

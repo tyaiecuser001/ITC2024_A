@@ -1,0 +1,191 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/yuchi/UART/UART_Client/simulation/modelsim
+vAT_ROM
+Z1 !s110 1718350104
+!i10b 1
+!s100 MDUo3<9RNcgD:z@MjLL<a0
+IinoM4O<T25g1?4e8Zj^Zn3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1714625544
+8D:/yuchi/UART/UART_Client/AT_ROM.v
+FD:/yuchi/UART/UART_Client/AT_ROM.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1718350104.000000
+!s107 D:/yuchi/UART/UART_Client/AT_ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART/UART_Client|D:/yuchi/UART/UART_Client/AT_ROM.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/yuchi/UART/UART_Client
+Z7 tCvgOpt 0
+n@a@t_@r@o@m
+vreceiver_OK
+R1
+!i10b 1
+!s100 aH>83I;jCiZA1oO<zUYd=0
+IBh]V_FajFa5G8S1imi[>n0
+R2
+R0
+w1714467231
+8D:/yuchi/UART/UART_Client/receiver_OK.v
+FD:/yuchi/UART/UART_Client/receiver_OK.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART/UART_Client/receiver_OK.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART/UART_Client|D:/yuchi/UART/UART_Client/receiver_OK.v|
+!i113 1
+R5
+R6
+R7
+nreceiver_@o@k
+vSelect_mode
+R1
+!i10b 1
+!s100 >N3J0^kiVGAcgcM=dRRbW1
+IEmS6FEcBOi?c^ReBYQXn42
+R2
+R0
+w1714118657
+8D:/yuchi/UART/UART_Client/Select_mode.v
+FD:/yuchi/UART/UART_Client/Select_mode.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART/UART_Client/Select_mode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART/UART_Client|D:/yuchi/UART/UART_Client/Select_mode.v|
+!i113 1
+R5
+R6
+R7
+n@select_mode
+vtestbench
+R1
+!i10b 1
+!s100 ;gKiTdIJmM:@dO6MNOg9F1
+IOLOR^5f<=<Ig:LI=><K^;0
+R2
+R0
+w1718350085
+8D:/yuchi/UART/UART_Client/testbench.v
+FD:/yuchi/UART/UART_Client/testbench.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART/UART_Client/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART/UART_Client|D:/yuchi/UART/UART_Client/testbench.v|
+!i113 1
+R5
+R6
+R7
+vTOP
+R1
+!i10b 1
+!s100 Cj:7`AW]@oF^`^5<gXRM>0
+I__QeP8GNO8HX6;mMn^`T33
+R2
+R0
+w1714445898
+8D:/yuchi/UART/UART_Client/TOP.v
+FD:/yuchi/UART/UART_Client/TOP.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART/UART_Client/TOP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART/UART_Client|D:/yuchi/UART/UART_Client/TOP.v|
+!i113 1
+R5
+R6
+R7
+n@t@o@p
+vUART_Client
+R1
+!i10b 1
+!s100 ^F7ZdBkkJ`CO[1nbUMn=^3
+I5RX[E8W@?ZM=GQ7bTG^Ib3
+R2
+R0
+w1714380451
+8D:/yuchi/UART/UART_Client/UART_Client.v
+FD:/yuchi/UART/UART_Client/UART_Client.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART/UART_Client/UART_Client.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART/UART_Client|D:/yuchi/UART/UART_Client/UART_Client.v|
+!i113 1
+R5
+R6
+R7
+n@u@a@r@t_@client
+vuart_rx
+R1
+!i10b 1
+!s100 <QCW7]fR=Hf<WjO53Dbn71
+IB`Xn[lCeF75Ybzm:Ve@ab0
+R2
+R0
+w1714467006
+8D:/yuchi/UART/UART_Client/uart_rx.v
+FD:/yuchi/UART/UART_Client/uart_rx.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART/UART_Client/uart_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART/UART_Client|D:/yuchi/UART/UART_Client/uart_rx.v|
+!i113 1
+R5
+R6
+R7
+vuart_tx
+R1
+!i10b 1
+!s100 0PiVVo[d<XaWF[f>aeVmK2
+I4_jY@R^PPEmEm`c@bSE6=3
+R2
+R0
+w1718349403
+8D:/yuchi/UART/UART_Client/uart_tx.v
+FD:/yuchi/UART/UART_Client/uart_tx.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART/UART_Client/uart_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART/UART_Client|D:/yuchi/UART/UART_Client/uart_tx.v|
+!i113 1
+R5
+R6
+R7

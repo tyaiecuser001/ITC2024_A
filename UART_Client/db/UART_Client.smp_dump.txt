@@ -1,0 +1,20 @@
+
+State Machine - |TOP|UART_Client:UART_Client_u1|receiver_OK:receiver_OK_u1|state
+Name state.011 state.010 state.001 state.000 
+state.000 0 0 0 0 
+state.001 0 0 1 1 
+state.010 0 1 0 1 
+state.011 1 0 0 1 
+
+State Machine - |TOP|UART_Client:UART_Client_u1|uart_rx:uart_rx_u2|stage_rx
+Name stage_rx.START stage_rx.STOP stage_rx.RECEIVE_DATA 
+stage_rx.START 0 0 0 
+stage_rx.RECEIVE_DATA 1 0 1 
+stage_rx.STOP 1 1 0 
+
+State Machine - |TOP|UART_Client:UART_Client_u1|uart_tx:uart_tx_u1|stage_tx
+Name stage_tx.STOP stage_tx.SEND_DATA stage_tx.START stage_tx.IDLE 
+stage_tx.IDLE 0 0 0 0 
+stage_tx.START 0 0 1 1 
+stage_tx.SEND_DATA 0 1 0 1 
+stage_tx.STOP 1 0 0 1 

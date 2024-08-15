@@ -1,0 +1,121 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do UART_Server_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART_Server {D:/yuchi/UART_Server/TOP.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:28:56 on Jun 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART_Server" D:/yuchi/UART_Server/TOP.v 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 20:28:56 on Jun 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART_Server {D:/yuchi/UART_Server/UART_Server.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:28:56 on Jun 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART_Server" D:/yuchi/UART_Server/UART_Server.v 
+# -- Compiling module UART_Server
+# 
+# Top level modules:
+# 	UART_Server
+# End time: 20:28:56 on Jun 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART_Server {D:/yuchi/UART_Server/uart_tx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:28:56 on Jun 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART_Server" D:/yuchi/UART_Server/uart_tx.v 
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	uart_tx
+# End time: 20:28:56 on Jun 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART_Server {D:/yuchi/UART_Server/uart_rx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:28:56 on Jun 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART_Server" D:/yuchi/UART_Server/uart_rx.v 
+# -- Compiling module uart_rx
+# 
+# Top level modules:
+# 	uart_rx
+# End time: 20:28:56 on Jun 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART_Server {D:/yuchi/UART_Server/receiver_OK_ser.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:28:56 on Jun 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART_Server" D:/yuchi/UART_Server/receiver_OK_ser.v 
+# -- Compiling module receiver_OK_ser
+# 
+# Top level modules:
+# 	receiver_OK_ser
+# End time: 20:28:56 on Jun 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART_Server {D:/yuchi/UART_Server/mode_LED.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:28:56 on Jun 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART_Server" D:/yuchi/UART_Server/mode_LED.v 
+# -- Compiling module mode_LED
+# 
+# Top level modules:
+# 	mode_LED
+# End time: 20:28:56 on Jun 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART_Server {D:/yuchi/UART_Server/AT_SERVER_ROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:28:56 on Jun 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART_Server" D:/yuchi/UART_Server/AT_SERVER_ROM.v 
+# -- Compiling module AT_SERVER_ROM
+# 
+# Top level modules:
+# 	AT_SERVER_ROM
+# End time: 20:28:56 on Jun 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART_Server {D:/yuchi/UART_Server/testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:28:56 on Jun 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART_Server" D:/yuchi/UART_Server/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 20:28:56 on Jun 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 20:28:57 on Jun 26,2024
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.UART_Server
+# Loading work.uart_tx
+# Loading work.AT_SERVER_ROM
+# Loading work.uart_rx
+# Loading work.receiver_OK_ser
+# Loading work.mode_LED
+# ** Warning: (vsim-3017) D:/yuchi/UART_Server/testbench.v(9): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/UART_Server File: D:/yuchi/UART_Server/TOP.v
+# ** Warning: (vsim-3722) D:/yuchi/UART_Server/testbench.v(9): [TFMPC] - Missing connection for port 'RST_WiFi'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/yuchi/UART_Server/testbench.v(433)
+#    Time: 33609460 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at D:/yuchi/UART_Server/testbench.v line 433
+# End time: 20:29:15 on Jun 26,2024, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 2

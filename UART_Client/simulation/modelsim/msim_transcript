@@ -1,0 +1,133 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do UART_Client_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART/UART_Client {D:/yuchi/UART/UART_Client/TOP.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:24 on Jun 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART/UART_Client" D:/yuchi/UART/UART_Client/TOP.v 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 15:28:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART/UART_Client {D:/yuchi/UART/UART_Client/UART_Client.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:24 on Jun 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART/UART_Client" D:/yuchi/UART/UART_Client/UART_Client.v 
+# -- Compiling module UART_Client
+# 
+# Top level modules:
+# 	UART_Client
+# End time: 15:28:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART/UART_Client {D:/yuchi/UART/UART_Client/uart_tx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:24 on Jun 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART/UART_Client" D:/yuchi/UART/UART_Client/uart_tx.v 
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	uart_tx
+# End time: 15:28:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART/UART_Client {D:/yuchi/UART/UART_Client/uart_rx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:24 on Jun 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART/UART_Client" D:/yuchi/UART/UART_Client/uart_rx.v 
+# -- Compiling module uart_rx
+# 
+# Top level modules:
+# 	uart_rx
+# End time: 15:28:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART/UART_Client {D:/yuchi/UART/UART_Client/receiver_OK.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:24 on Jun 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART/UART_Client" D:/yuchi/UART/UART_Client/receiver_OK.v 
+# -- Compiling module receiver_OK
+# 
+# Top level modules:
+# 	receiver_OK
+# End time: 15:28:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART/UART_Client {D:/yuchi/UART/UART_Client/Select_mode.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:24 on Jun 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART/UART_Client" D:/yuchi/UART/UART_Client/Select_mode.v 
+# -- Compiling module Select_mode
+# 
+# Top level modules:
+# 	Select_mode
+# End time: 15:28:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART/UART_Client {D:/yuchi/UART/UART_Client/AT_ROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:24 on Jun 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART/UART_Client" D:/yuchi/UART/UART_Client/AT_ROM.v 
+# -- Compiling module AT_ROM
+# 
+# Top level modules:
+# 	AT_ROM
+# End time: 15:28:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/yuchi/UART/UART_Client {D:/yuchi/UART/UART_Client/testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:24 on Jun 14,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/yuchi/UART/UART_Client" D:/yuchi/UART/UART_Client/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:28:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 15:28:25 on Jun 14,2024
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.UART_Client
+# Loading work.uart_tx
+# Loading work.AT_ROM
+# Loading work.uart_rx
+# Loading work.receiver_OK
+# Loading work.Select_mode
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/yuchi/UART/UART_Client/testbench.v(405)
+#    Time: 33176980 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at D:/yuchi/UART/UART_Client/testbench.v line 405
+add wave -position end  sim:/testbench/TOP_u1/UART_Client/uart_tx_u1/cnt_rom
+add wave -position end  sim:/testbench/TOP_u1/UART_Client/uart_tx_u1/addr
+add wave -position end  sim:/testbench/TOP_u1/UART_Client/uart_tx_u1/Send_addr
+add wave -position end  sim:/testbench/TOP_u1/UART_Client/uart_tx_u1/test
+add wave -position end  sim:/testbench/TOP_u1/UART_Client/uart_tx_u1/tx_data
+# Break key hit
+restart
+run -all
+# GetModuleFileName: 找不到指定的模組。
+# 
+# 
+# ** Note: $finish    : D:/yuchi/UART/UART_Client/testbench.v(405)
+#    Time: 33176980 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at D:/yuchi/UART/UART_Client/testbench.v line 405
+# End time: 15:40:31 on Jun 14,2024, Elapsed time: 0:12:06
+# Errors: 0, Warnings: 0

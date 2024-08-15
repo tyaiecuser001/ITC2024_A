@@ -1,0 +1,10 @@
+module TOP(
+			input iCLK,RST_n,
+			input tx,
+			output rx,
+			output [7:0] LED
+			
+			);
+
+
+endmodule

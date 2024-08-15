@@ -1,0 +1,191 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/yuchi/UART_Server/simulation/modelsim
+vAT_SERVER_ROM
+Z1 !s110 1719404936
+!i10b 1
+!s100 <SYi4UeEFYM4<?A@lWVQD0
+I>AXBLDZa2Ca:hdH8S;:E>3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1719232858
+8D:/yuchi/UART_Server/AT_SERVER_ROM.v
+FD:/yuchi/UART_Server/AT_SERVER_ROM.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1719404936.000000
+!s107 D:/yuchi/UART_Server/AT_SERVER_ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART_Server|D:/yuchi/UART_Server/AT_SERVER_ROM.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/yuchi/UART_Server
+Z7 tCvgOpt 0
+n@a@t_@s@e@r@v@e@r_@r@o@m
+vmode_LED
+R1
+!i10b 1
+!s100 3TcInKB]ZmYh;BE2;oD3]2
+IjX4b`zzFl:4bQ^TmG8E[M0
+R2
+R0
+w1719398279
+8D:/yuchi/UART_Server/mode_LED.v
+FD:/yuchi/UART_Server/mode_LED.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART_Server/mode_LED.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART_Server|D:/yuchi/UART_Server/mode_LED.v|
+!i113 1
+R5
+R6
+R7
+nmode_@l@e@d
+vreceiver_OK_ser
+R1
+!i10b 1
+!s100 _ni:TI<hf]6C<J33`1A;02
+Iz_cemAnRn<4l[gOHf4mzP1
+R2
+R0
+w1719404924
+8D:/yuchi/UART_Server/receiver_OK_ser.v
+FD:/yuchi/UART_Server/receiver_OK_ser.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART_Server/receiver_OK_ser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART_Server|D:/yuchi/UART_Server/receiver_OK_ser.v|
+!i113 1
+R5
+R6
+R7
+nreceiver_@o@k_ser
+vtestbench
+R1
+!i10b 1
+!s100 jB9b@<fC1[BfjGECXH61c2
+I7Te2eY4S@hhB?eY>]o?lW1
+R2
+R0
+w1719404618
+8D:/yuchi/UART_Server/testbench.v
+FD:/yuchi/UART_Server/testbench.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART_Server/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART_Server|D:/yuchi/UART_Server/testbench.v|
+!i113 1
+R5
+R6
+R7
+vTOP
+R1
+!i10b 1
+!s100 djcd9OhHRjb;`?3i`VzlF1
+Iic[:Jl7:ldj8W@IV@;Dfb2
+R2
+R0
+w1719331037
+8D:/yuchi/UART_Server/TOP.v
+FD:/yuchi/UART_Server/TOP.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART_Server/TOP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART_Server|D:/yuchi/UART_Server/TOP.v|
+!i113 1
+R5
+R6
+R7
+n@t@o@p
+vuart_rx
+R1
+!i10b 1
+!s100 A2:IAc?nIIXCI4IJQg51X3
+IP2Pl;C:PS25QYbH2<Z^mc3
+R2
+R0
+w1719210602
+8D:/yuchi/UART_Server/uart_rx.v
+FD:/yuchi/UART_Server/uart_rx.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART_Server/uart_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART_Server|D:/yuchi/UART_Server/uart_rx.v|
+!i113 1
+R5
+R6
+R7
+vUART_Server
+R1
+!i10b 1
+!s100 MN4H^Td=2h;ocZ9;LCEf:3
+I[jRPdQ>l_Im0EZeIiIbS91
+R2
+R0
+w1719398286
+8D:/yuchi/UART_Server/UART_Server.v
+FD:/yuchi/UART_Server/UART_Server.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART_Server/UART_Server.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART_Server|D:/yuchi/UART_Server/UART_Server.v|
+!i113 1
+R5
+R6
+R7
+n@u@a@r@t_@server
+vuart_tx
+R1
+!i10b 1
+!s100 WC6:CN_6`<lVC0>BJ;Ehl0
+IQI_HX5M[Z[P`^@7bRCQl90
+R2
+R0
+w1719377702
+8D:/yuchi/UART_Server/uart_tx.v
+FD:/yuchi/UART_Server/uart_tx.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/yuchi/UART_Server/uart_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/yuchi/UART_Server|D:/yuchi/UART_Server/uart_tx.v|
+!i113 1
+R5
+R6
+R7

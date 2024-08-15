@@ -1,0 +1,19 @@
+`timescale 1ns/100ps
+module testbench;
+
+reg iCLK,RST_n,rx;
+
+wire [7:0] LED;
+wire tx,Server_txd;
+
+TOP UART_Server(
+			.iCLK(iCLK),
+			.RST_n(RST_n),
+			.rx(rx),
+			.tx(tx),
+			.LED(LED),
+			.Server_txd(Server_txd)
+			);
+
+
+endmodule
